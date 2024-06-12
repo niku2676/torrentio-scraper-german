@@ -10,7 +10,7 @@ const CatalogMochs = Object.values(MochOptions).filter(moch => moch.catalog);
 export function manifest(config = {}) {
   const overrideManifest = getManifestOverride(config);
   const baseManifest = {
-    id: 'com.stremio.torrentio.addon',
+    id: 'com.stremio.torrentio-german.addon',
     version: '0.0.14',
     name: getName(overrideManifest, config),
     description: getDescription(config),
