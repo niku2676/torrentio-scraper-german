@@ -28,6 +28,20 @@ const DEFAULT_TRACKERS = [
   "udp://tracker.torrent.eu.org:451/announce",
   "udp://valakas.rollo.dnsabr.com:2710/announce",
   "udp://www.torrent.eu.org:451/announce",
+  "udp://tracker.openbittorrent.com:80",
+  "udp://tracker.publicbt.com:80",
+  "udp://tracker.istole.it:80",
+  "udp://tracker.btzoo.eu:80/announce",
+  "http://opensharing.org:2710/announce",
+  "udp://open.demonii.com:1337/announce",
+  "http://announce.torrentsmd.com:8080/announce.php",
+  "http://announce.torrentsmd.com:6969/announce",
+  "http://bt.careland.com.cn:6969/announce", 
+  "http://i.bandito.org/announce",
+  "http://bttrack.9you.com/announce",
+  "udp://tracker.openbittorrent.com:80/announce"
+  "https://r0k3t.li/rss/5.01046fce01d3986161d0b5ed6d0ebc96",
+  "udp://open.tracker.cl:1337/announce",
 ]
 const ANIME_TRACKERS = [
   "http://nyaa.tracker.wf:7777/announce",
