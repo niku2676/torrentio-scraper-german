@@ -35,7 +35,7 @@ export function dummyManifest() {
 }
 
 function getName(manifest, config) {
-  const rootName = manifest?.name || 'Torrentio';
+  const rootName = manifest?.name || 'Torrentio Gemran';
   const mochSuffix = Object.values(MochOptions)
       .filter(moch => config[moch.key])
       .map(moch => moch.shortName)
